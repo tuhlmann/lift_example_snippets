@@ -15,17 +15,37 @@
 
       <h2>Example: Thing1</h2>
 
-      <div id="count" class="lift:Thing1.value">-1</div>
+      <div id="count1" class="lift:Thing1.value">-1</div>
       <div>
         <button class="lift:Thing1.button">Inc</button>
       </div>
 
       <h2>Example: Thing2</h2>
 
-      <div class="lift:Thing2"><span>-1</span>
-        <div class="lift:form.ajax">
-          <button>Inc</button>
-        </div>
+      <div class="lift:Thing2">
+        <span id="count2">-1</span>
+        <button>Inc</button>
+      </div>
+
+      <h2>Example: Thing3 (Thing is an object)</h2>
+
+      <div id="count3" class="lift:Thing3.value">-1</div>
+      <div>
+        <button class="lift:Thing3.button">Inc</button>
+      </div>
+
+      <h2>Example: Thing4 (Thing is an object)</h2>
+
+      <div class="lift:Thing4">
+        <span>-1</span>
+        <button>Inc</button>
+      </div>
+
+      <h2>Fun with Memoize</h2>
+
+      <div class="lift:ShowMemoize">
+        The Counter: <span id="count5">-1</span><br/>
+        <button>Increment</button>
       </div>
 
     </div>
